@@ -1,5 +1,5 @@
 import os
-
+""" This script is used to change/rename files in a specifc directory """
 os.chdir(r'E:\some-folder\some-folder')   # path of folder
 print(os.getcwd())
 
@@ -11,5 +11,6 @@ for f in os.listdir():
         new_name = '{}-{}{}'.format(t1, t2, file_ext)   # change name according to requirement
         print(new_name)    # printing  new name
         # os.rename(f, new_name)  # changing file name non reversible proceed with caution
+        # remove the above comment later to make changes
     except ValueError:
         pass
