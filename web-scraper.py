@@ -3,6 +3,14 @@ import sys
 import webbrowser
 import bs4 as bs 
 
+"""
+requried modules:
+    requests
+    webbrowser
+    bs4
+    
+    This script is used to open specfic number of web page's that are top results of google search for that phrase.
+"""
 # res = requests.get('https://www.google.com/search?q=cube')  # .join(sys.argv[1:]))
 data = 'hey'
 url = 'https://www.google.com/search?q=' + data
